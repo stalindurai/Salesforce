@@ -15,6 +15,7 @@ public class SFO19_CreateTask {
 		
 		if(url == null) {
 			url = "https://login.salesforce.com";
+			System.out.println("I Love Learning");
 		}
 		
 		WebDriverManager.chromedriver().setup();
